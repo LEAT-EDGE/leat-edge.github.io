@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+}
+
+.card {
+  width: 20em;
+  margin-left: 1em;
+}
+
+.card:hover {
+  border-color: blue;
+}
+
+.card > img {
+  object-fit: contain;
+  height: 15em;
+}
+
+.card-text {
+  text-align: justify;
+  height: 7em;
+}
+
+footer {
+  color: grey;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
