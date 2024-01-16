@@ -9,12 +9,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>LEAT-EDGE</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-icons.min.css" />
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="icon" href="favicon.svg" type="image/svg+xml" />
 	</head>
 	<body class="d-flex flex-column">
+		<div class="mb-2">
+			<a href="https://github.com/LEAT-EDGE" class="btn btn-light btn-lg rounded-0 rounded-bottom-right" role="button"><i class="bi-github"></i> GitHub</a>
+		</div>
+
 		<!-- Main container -->
-		<div id="content" class="container d-flex flex-wrap align-items-center justify-content-center">
+		<div id="content" class="container d-flex flex-grow-1 flex-wrap align-items-center justify-content-center">
 
 			<!-- First card: Qualia -->
 			<div class="card">
@@ -27,6 +32,8 @@
 					<div class="p-3">
 						<p class="card-text">End-to-end training, quantization and deployment framework for deep neural networks on embedded devices.</p>
 					</div>
+					<!-- Tags -->
+					<p class="ms-3">Tags: <button type="button" class="btn btn-sm btn-outline-success p-1 ms-2" disabled="disabled">Software</button></p>
 					<!-- Card link -->
 					<a href="https://leat-edge.github.io/qualia/" class="stretched-link"></a>
 				</div>
@@ -43,6 +50,8 @@
 					<div class="p-3">
 						<p class="card-text">Development and prototyping microcontroller-based board for education.</p>
 					</div>
+					<!-- Tags -->
+					<p class="ms-3">Tags: <button type="button" class="btn btn-sm btn-outline-danger p-1 ms-2" disabled="disabled">Hardware</button></p>
 					<!-- Card link -->
 					<!--<a href="/EDU32F103/" class="stretched-link"></a>-->
 				</div>
@@ -59,6 +68,8 @@
 					<div class="p-3">
 						<p class="card-text">Audio acquisition module for microcontrollers over I2S with support for analog microphones.</p>
 					</div>
+					<!-- Tags -->
+					<p class="ms-3">Tags: <button type="button" class="btn btn-sm btn-outline-danger p-1 ms-2" disabled="disabled">Hardware</button></p>
 					<!-- Card link -->
 					<!--<a href="/AnalogI2SMic/" class="stretched-link"></a>-->
 				</div>
@@ -68,7 +79,7 @@
 
 		<footer class="text-center">
 			<hr />
-			<a href="https://leat.univ-cotedazur.fr/edge/">LEAT EDGE Team</a>
+			<a href="https://leat.univ-cotedazur.fr/edge/" class="btn btn-light">LEAT EDGE Team</a>
 		</footer>
 	</body>
 </html>
